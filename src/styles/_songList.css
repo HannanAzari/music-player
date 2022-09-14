@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+.song-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(228, 226, 226);
+    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+    overflow: scroll;
+    transition: all 0.5s linear;
+}
+.song-list h2 {
+    padding: 1vw;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+}
+
+.song-list-items {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 2vw;
+    align-items: center;
+    
+
+}
+
+.song-list-items img {
+    width: 40%;
+    
+}
+
+.song-item {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.song-item:hover {
+    background: rgb(200, 200, 200);
+}
+
+.song-description {
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.song-description h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1vh; 
+
+}
+.song-description h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+    width: 5px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+.selected {
+    background-color: rgb(107, 126, 148);
+}
+
+.displayList {
+    transform: translateX(-30vw);
+}
+
+@media screen and (max-width: 768px){
+    .song-list {
+        width: 100%;
+        transition: all 1s ease;
+    }
+    .displayList {
+        transform: translateX(-100vw);
+    }
+}

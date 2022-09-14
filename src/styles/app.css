@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    transition: all 1s ease;
+}
+.activeList {
+    margin-left: 10%;
+}
+
+@import './_player.css';
+@import './_song.css';
+@import './_songList.css';
+@import './_toggleList.css';

@@ -1,0 +1,31 @@
+import React, { useState } from "react";
+import './styles/app.css'
+import Song from "./components/Song";
+import Player from "./components/Player";
+import data from "./data";
+import SongList from './components/SongList';
+import ToggleList from "./components/ToggleList";
+
+
+
+function App() {
+    const [songs, setSongs] = useState(data());
+    const [currentSong, setCurrentSong] =useState(songs[0]);
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [displayListSong, setDisplayListSong] = useState(true);
+
+    return (
+        <div className={`App ${displayListSong ? 'activeList' : ""}`}>
+            <ToggleList displayListSong={displayListSong} setDisplayListSong={setDisplayListSong} />
+            <Song currentSong={currentSong}/>
+            <Player currentSong={currentSong} isPlaying={isPlaying} setIsPlaying={setIsPlaying} songs={songs} setCurrentSong={setCurrentSong} setSongs={setSongs} />
+            <SongList 
+                songs={songs} 
+                setCurrentSong={setCurrentSong} 
+                setSongs={setSongs}
+                displayListSong={displayListSong} />
+        </div>
+    );
+}
+
+export default App;
