@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/music-player/static/css/main.ef6b4f39.css",
+    "main.js": "/music-player/static/js/main.6feb1913.js",
+    "static/media/6.mp3": "/music-player/static/media/6.7d6eef2addd1f5062ff9.mp3",
+    "static/media/10.mp3": "/music-player/static/media/10.9c671606a81267bbaf1f.mp3",
+    "static/media/8.mp3": "/music-player/static/media/8.d53c616ee69ca3633198.mp3",
+    "static/media/5.mp3": "/music-player/static/media/5.601ccfaf82fdfc774a9f.mp3",
+    "static/media/9.mp3": "/music-player/static/media/9.12c2c6dd553302c3cea6.mp3",
+    "static/media/7.mp3": "/music-player/static/media/7.b439a2bc5406347af701.mp3",
+    "static/media/11.mp3": "/music-player/static/media/11.500c3404aae74f6da580.mp3",
+    "static/media/4.mp3": "/music-player/static/media/4.82d1cb5c1158b0237fd4.mp3",
+    "static/media/1.mp3": "/music-player/static/media/1.db339e0215f934afbc19.mp3",
+    "static/media/3.mp3": "/music-player/static/media/3.8271f1c3d7c81977a63e.mp3",
+    "static/media/2.mp3": "/music-player/static/media/2.3f99f0b6116da23cccab.mp3",
+    "static/media/11.jpeg": "/music-player/static/media/11.de6a27e370483812481c.jpeg",
+    "static/media/4.jpeg": "/music-player/static/media/4.504d37fded9389c639c6.jpeg",
+    "static/media/7.jpeg": "/music-player/static/media/7.202012fd4922bbfe26ed.jpeg",
+    "static/media/2.jpeg": "/music-player/static/media/2.3eb1a60fd0484dc84b05.jpeg",
+    "static/media/5.jpeg": "/music-player/static/media/5.a2b13b9f3c21d176fae0.jpeg",
+    "static/media/8.jpeg": "/music-player/static/media/8.41b7ae911ae8aba91d2b.jpeg",
+    "static/media/3.jpeg": "/music-player/static/media/3.c737c29b21cee52cdc03.jpeg",
+    "static/media/6.jpeg": "/music-player/static/media/6.91ee2cb672529cece451.jpeg",
+    "static/media/9.jpeg": "/music-player/static/media/9.679be31616b6a6cfcb88.jpeg",
+    "static/media/1.jpeg": "/music-player/static/media/1.b7b1f97a0d9ffa40624a.jpeg",
+    "static/media/10.jpeg": "/music-player/static/media/10.12de74f2d4d8ad7bc119.jpeg",
+    "index.html": "/music-player/index.html",
+    "main.ef6b4f39.css.map": "/music-player/static/css/main.ef6b4f39.css.map",
+    "main.6feb1913.js.map": "/music-player/static/js/main.6feb1913.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef6b4f39.css",
+    "static/js/main.6feb1913.js"
+  ]
+}
